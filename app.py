@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route('/', 'POST'])
+@app.route('/')
 def start():
 
     return render_template('index.html')
