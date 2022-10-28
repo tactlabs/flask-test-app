@@ -22,7 +22,7 @@ stages {
 	{
 	steps {
 		echo "deploying the application"
-		sh "sudo nohup python3 app.py > log.txt 2>&1 &"
+		sh "sudo nohup python3 app.py > nohup.out &"
 	}
 	}
 }
@@ -32,7 +32,7 @@ post {
 			echo 'The pipeline completed'
 			junit allowEmptyResults: true, testResults:'**/test_reports/*.xml'
 		}
-		success {				
+		success {
 			echo "Flask Application Up and running!!"
 		}
 		failure {
