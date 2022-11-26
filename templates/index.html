@@ -7,9 +7,14 @@
     <title>Test App</title>
 </head>
 <body>
+    <form action="/get/info" method="POST">
+        name: <input type="text" name="name"><br><br>
+        colour: <input type="text" name="colour"><br><br>
+        <input type="submit">
+    </form>
 
-    
-    heeeeyyy jenkins hereee
-
+    {{name}}
+    <br>
+    {{colour}}
 </body>
 </html>
