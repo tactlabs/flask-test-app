@@ -1,0 +1,7 @@
+{
+    "person1":{
+        "fav_colour" : "<colour>",
+        "fav_book" : "<book>",
+        "fav_song" : "<song>"
+    }
+}

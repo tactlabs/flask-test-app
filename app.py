@@ -45,14 +45,14 @@ def get_info():
     return render_template("index.html")
     
 
-# @app.route('/jaffi/<name>/<colour>')
-# def random_func(name,colour):
-#     # name = request.args.get('name')
-#     # colour=request.args.get('colour')
-#     result = {
-#         "name" : name,
-#         "favorite colour" : colour
-#     }
+@app.route('/jaffi/<name>/<colour>')
+def random_func(name,colour):
+    # name = request.args.get('name')
+    # colour=request.args.get('colour')
+    result = {
+        "name" : name,
+        "favorite colour" : colour
+    }
 
     return  result
 if __name__== "__main__":
