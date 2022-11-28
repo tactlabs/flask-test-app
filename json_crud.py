@@ -5,9 +5,7 @@ Course work:
 
 @author: chaaya
 
-Source: https://www.askpython.com/python-modules/flask/flask-redirect-url
-        https://stackoverflow.com/questions/61040047/how-to-pass-arguments-for-return-redirecturl-in-flask
-    
+Source: 
 '''
 # Import necessary modules
 
